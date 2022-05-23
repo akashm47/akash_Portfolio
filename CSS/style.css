@@ -268,6 +268,11 @@ section .title::after{
 }
 .about .title::after{
     content: "—Who I Am ?—";
+    text-overflow: ellipsis;
+    display: -webkit-inline-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    
 }
 
 .about .about-content .left{
@@ -805,6 +810,15 @@ footer span a:hover{
     .about .about-content .left img{
         height: 350px;
         width: 350px;
+    }
+    section .title::after{
+        position: absolute;
+        bottom: -8px;
+        left: 50%;
+        font-size: 16px;
+        color: #1e3551;
+        padding: 0 5px;
+        transform: translateX(-50%);
     }
 }
 
