@@ -101,7 +101,6 @@ section .title::before{
     left: 50%;
     width: 180px;
     height: 3px;
-    background: #111;
     transform: translateX(-50%);
 }
 
@@ -110,9 +109,8 @@ section .title::after{
     bottom: -8px;
     left: 50%;
     font-size: 20px;
-    color: #888c8d;
+    color: #1e3551;
     padding: 0 5px;
-    background: #fff;
     transform: translateX(-50%);
 }
 
@@ -292,8 +290,11 @@ section .title::after{
 
 /* ------------------------------ Study ------------------------------ */
 
+.study{
+    background: radial-gradient(#e1efff, white);
+}
 .study .title::after{
-    content: "Where I Study ?";
+    content: "—Where I Study ?—";
 }
 
 .study .study-content .left{
@@ -312,6 +313,9 @@ section .title::after{
 }
 
 .study .study-content .right .text{
+    background: linear-gradient(135deg, #041d3d, rgb(220, 70, 20), #041d3d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-size: 25px;
     font-weight: 600;
     margin-bottom: 10px;
@@ -320,7 +324,6 @@ section .title::after{
 .year{
     font-size: 24px;
     font-family: "Comfortaa", cursive;
-    color: #0a4491;
 }
 
 .study .study-content .right p{
