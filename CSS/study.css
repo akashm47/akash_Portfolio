@@ -386,6 +386,10 @@ footer span a:hover{
         height: 350px;
         width: 350px;
     }
+    section .title::after{
+        bottom: -8px;
+        font-size: 16px;
+    }
 }
 
 /* --x--------------------------- Media Query 1104px ---------------------------x-- */
