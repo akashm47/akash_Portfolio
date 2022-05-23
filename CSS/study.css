@@ -294,7 +294,7 @@ section .title::after{
     background: radial-gradient(#e1efff, white);
 }
 .study .title::after{
-    content: "—Where I Study ?—";
+    content: "—Where I Study—";
 }
 
 .study .study-content .left{
