@@ -389,7 +389,7 @@ section .title::after{
     background: radial-gradient(#e1efff, white);
 }
 .skills .title::after{
-    content: "—What I Know—";
+    content: "—What I Know ?—";
 }
 
 .skills .skills-content .column{
@@ -397,7 +397,7 @@ section .title::after{
 }
 
 .skills .skills-content .left .text{
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 600;
     margin-bottom: 10px;
 }
@@ -496,7 +496,7 @@ section .title::after{
 /* ------------------------------ Projects ------------------------------ */
 
 .projects .title::after{
-    content: "What I did";
+    content: "What I did ?";
 }
 
 .projects .carousel .card{
@@ -584,7 +584,7 @@ section .title::after{
 }
 
 .contact .contact-content .text{
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 600;
     margin-bottom: 10px;
 }
