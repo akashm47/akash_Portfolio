@@ -74,7 +74,6 @@ section .title::before{
     left: 50%;
     width: 180px;
     height: 3px;
-    background: #111;
     transform: translateX(-50%);
 }
 
@@ -83,9 +82,8 @@ section .title::after{
     bottom: -8px;
     left: 50%;
     font-size: 20px;
-    color: #888c8d;
+    color: #1e3551;
     padding: 0 5px;
-    background: #fff;
     transform: translateX(-50%);
 }
 
@@ -265,12 +263,16 @@ section .title::after{
 
 /* ------------------------------ Intern & Project ------------------------------ */
 
+.intern, .project{
+    background: radial-gradient(#e1efff, white);
+}
+
 .intern .title::after{
-    content: "Where I Do ?";
+    content: "—Where I Work ?—";
 }
 
 .project .title::after{
-    content: "What I Did ?";
+    content: "—What I Did ?—";
 }
 
 .intern .intern-content .left, .project .project-content .left{
@@ -289,6 +291,9 @@ section .title::after{
 }
 
 .intern .intern-content .right .text, .project .project-content .right .text{
+    background: linear-gradient(135deg, #041d3d, rgb(220, 70, 20), #041d3d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-size: 25px;
     font-weight: 600;
     margin-bottom: 10px;
