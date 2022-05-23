@@ -268,7 +268,7 @@ section .title::after{
 }
 
 .intern .title::after{
-    content: "—Where I Work ?—";
+    content: "—Where I Work—";
 }
 
 .project .title::after{
